@@ -1,3 +1,12 @@
 body{
-    background: #BDBDBD;
+    font-family: "roboto";
 }
+
+
+/*Estilos Navbar*/
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #979797; /* Gris clarito */
+}
+
