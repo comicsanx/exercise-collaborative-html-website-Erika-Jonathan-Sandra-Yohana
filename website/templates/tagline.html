@@ -1,3 +1,30 @@
-<!-- your html code here -->
-<!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+<style>
+    /* Estilos personalizados */
+    .tagline {
+      background-image: url("/website/assets/img/bg.jpg");
+      background-size: cover;
+      background-position: center; 
+    }
+
+    .tagline__texto__1 {
+      background-color: white; /* Fondo blanco */
+      padding: 2rem; /* Espaciado interno */
+      border-radius: 10px; /* Bordes redondeados */
+      text-align: center; /* Centrar el texto */
+    }
+
+    .tagline__texto__2 {
+      font-size: 4rem; /* Tamaño del texto grande */
+      font-weight: bold; /* Texto en negrita */
+      color: #333; /* Color del texto */
+    }
+  </style>
+
+  <!-- Sección principal -->
+  <div class="tagline">
+    <!-- Contenedor del texto con fondo blanco -->
+    <div class="tagline__texto__1">
+      <h1>Texto Grande</h1>
+      <p class="tagline__texto__2">Este es un texto de apoyo más pequeño.</p>
+    </div>
+  </div>
